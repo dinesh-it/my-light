@@ -1,0 +1,12 @@
+{
+	"owm_api_key": "xxxxxxx",
+	"location": "India",
+	"before_sun_set": 900,
+	"device_id": "xxxxxxxxxx",
+	"device_version": 3.3,
+	"device_local_ip": "xxx.xx.xx.xx",
+	"device_local_key": "xxxxxx",
+	"default_options": {
+		"brightness": 40
+	}
+}

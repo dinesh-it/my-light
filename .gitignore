@@ -1,0 +1,11 @@
+# Cache files created by tinytuya API on first time initializitation
+devices.json
+snapshot.json
+tinytuya.json
+tuya-raw.json
+
+# pycharm IDE stuffs
+.idea
+__pycache__
+venv
+
