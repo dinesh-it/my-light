@@ -53,6 +53,7 @@ Controlling and monitoring Tuya devices on your network requires the following:
 - Device ID - Unique identifier for the Tuya device
 - Version - Tuya protocol version used (3.1, 3.2, 3.3, 3.4 or 3.5)
 - Local_Key - Security key needed to access the Tuya device. See [TinyTuya Setup Wizard](https://github.com/jasonacox/tinytuya#setup-wizard---getting-local-keys) to get these keys.
+Detailed instructions with screenshot is given in my [blogpost](https://dineshdtech.blogspot.com/2023/08/smart-bulb-control-using-python-script.html)
 
 Once you have retrieved all the above keys, open `my_light.conf` file and update respective values.
 
