@@ -99,12 +99,10 @@ The script supports the following command-line options:
    python my_light.py -s --off -g 'veryslow'
    ```
 
-3. Change color of light based on a command exist status/test cases result
+3. Change color of light based on a command exist status/test cases result:
 
-    Add below code to your bashrc:
-
-
-   ```
+Add below code to your bashrc:
+   ```bash
 export LITDIR="/path/to/project/directory"
 export MY_LIGHT_CONF="$LITDIR/my_light.json"
 
@@ -121,10 +119,10 @@ lits() {
 	fi
 	python $LITDIR/my_light.py -s on -c $clr -b 100 -f -t 30
 }
-   ```
+```
 
-Now run a command using `lits` function and the light will turn on in warm white and once the script is compelted, based on the exit status of the script the light color will change to green (0) or red (non 0)  
-```angular2html
+Now run a command using `lits` function and the light will turn on in warm white and once the script is completed, based on the exit status of the script the light color will change to green (0) or red (non 0)  
+```bash
 lits pytest
 ```
 Light color will change to green if all your test cases are passed otherwise will glow in red color
